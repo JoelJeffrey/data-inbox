@@ -1,0 +1,91 @@
+.data-inbox {
+  padding: 0;
+  background: #eee;
+  height: 100vh;
+}
+
+.data-header {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #E8E5E4;
+  background: #F4ECE7;
+  font-weight: bold;
+}
+
+.data-logo {
+  height: 50px;
+}
+
+.content-wrapper {
+  margin-top: 30px;
+  padding: 0 30px;
+}
+
+.button {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background: #E4E3E2;
+  border: none;
+  color: #525253;
+  font-weight: bold;
+}
+
+.table {
+  background: #fff;
+  border-radius: 5px;
+  max-width: 1000px;
+  position: relative;
+  overflow: scroll;
+}
+
+.table-row {
+  min-width: 700px;
+  display: grid;
+  grid-template-columns: 75px 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 10px;
+  text-align: left;
+  padding: 8px 15px;
+  border-top: 1px solid #ececec;
+}
+
+.table-head {
+  padding: 15px;
+  border: none;
+}
+
+.table-head .table-cell {
+  color: #919191;
+  font-weight: bold;
+}
+
+.table-record-name {
+  font-weight: bold;
+}
+
+.table-input {
+  padding: 5px 10px;
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.table-checkbox {
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.input-error {
+  border: 1px solid #F7AFAE;
+  background: #FEE9E8;
+}
+
+.select-all {
+  margin-left: 15px;
+  cursor: pointer;
+}
